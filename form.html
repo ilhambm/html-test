@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="Ilham BM" content="Form Sign Up, ilhambmuhit@gmail.com">
+        <title>Buat Account Baru!</title>
+    </head>
+    <body>
+        <form action="welcome.html" method="POST">
+            <h1>Buat Acccount Baru!</h1>
+            <h2>Sign Up Form</h2>
+            <p>
+                <label>First Name:</label><br><br>
+                <input type="text" name="first_name"/>
+            </p>
+            <p>
+                <label>Last Name:</label><br><br>
+                <input type="text" name="last_name"/>
+            </p>
+            <p>
+                <label>Gender:</label><br><br>
+                <label><input type="radio" name="gender" value="male" /> Male</label><br>
+                <label><input type="radio" name="gender" value="female" /> Female</label><br>
+                <label><input type="radio" name="gender" value="other" /> Other</label><br>
+            </p>
+            <p>
+                <label>Nationality:</label><br><br>
+                <select name="nationality">
+                    <option value="indonesian">Indonesian</option>
+                    <option value="singaporian">Singaporian</option>
+                    <option value="malaysian">Malaysian</option>
+                    <option value="australian">Australian</option>
+                </select>
+            </p>
+            <p>
+                    <label>Language Spoken:</label><br><br>
+                    <label><input type="checkbox" name="language_spoken" value="Bahasa Indonesia" /> Bahasa Indonesia</label><br>
+                    <label><input type="checkbox" name="language_spoken" value="English" /> English</label><br>
+                    <label><input type="checkbox" name="language_spoken" value="other" /> Other</label><br>
+            </p>
+            <p>
+                <label>Bio:</label><br><br>
+                <textarea name="bio" cols="30" rows="10"></textarea><br>
+                <input type="submit" name="sign_up" value="Sign Up" />
+            </p>
+        </form>
+    </body>
+</html>
